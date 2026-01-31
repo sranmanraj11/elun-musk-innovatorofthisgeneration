@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Elon Musk — Greatest Entrepreneur</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        background: #0f0f0f;
+        color: #f5f5f5;
+        scroll-behavior: smooth;
+    }
+
+    nav {
+        background: #000;
+        padding: 15px;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        text-align: center;
+    }
+
+    nav a {
+        color: #00d9ff;
+        margin: 0 15px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    nav a:hover {
+        color: white;
+    }
+
+    header {
+        text-align: center;
+        padding: 60px 20px;
+        background: linear-gradient(to right, #000000, #1a1a1a);
+    }
+
+    header h1 {
+        font-size: 3em;
+        margin-bottom: 10px;
+    }
+
+    section {
+        max-width: 1000px;
+        margin: auto;
+        padding: 60px 20px;
+    }
+
+    h2 {
+        color: #00d9ff;
+        margin-bottom: 20px;
+    }
+
+    .card {
+        background: #1c1c1c;
+        padding: 25px;
+        border-radius: 10px;
+        margin-bottom: 30px;
+        box-shadow: 0 0 15px rgba(0, 217, 255, 0.15);
+    }
+
+    ul {
+        line-height: 1.8em;
+    }
+
+    .timeline-item {
+        margin-bottom: 20px;
+        padding-left: 15px;
+        border-left: 3px solid #00d9ff;
+    }
+
+    footer {
+        text-align: center;
+        padding: 30px;
+        background: black;
+        margin-top: 40px;
+    }
+
+    iframe {
+        max-width: 100%;
+        border-radius: 10px;
+    }
+</style>
+</head>
+
+<body>
+
+<nav>
+    <a href="#bio">Biography</a>
+    <a href="#companies">Companies</a>
+    <a href="#challenges">Challenges</a>
+    <a href="#impact">Impact</a>
+    <a href="#lessons">Lessons</a>
+    <a href="#video">Video</a>
+</nav>
+
+<header>
+    <h1>Elon Musk</h1>
+    <p>The Entrepreneur Who’s Building the Future</p>
+</header>
+
+<section id="bio">
+    <div class="card">
+        <h2>👤 Biography</h2>
+        <p>Elon Reeve Musk was born June 28, 1971 in Pretoria, South Africa. He later moved to North America and studied physics and economics at the University of Pennsylvania. He briefly attended Stanford before dropping out to start businesses.</p>
+        <p>From an early age, Musk showed talent in technology — he sold a video game he coded at just 12 years old.</p>
+    </div>
+</section>
+
+<section id="companies">
+    <div class="card">
+        <h2>🚀 Companies & Innovations</h2>
+        <ul>
+            <li><strong>Zip2</strong> – First company, sold for millions</li>
+            <li><strong>PayPal</strong> – Revolutionized online payments</li>
+            <li><strong>SpaceX</strong> – Reusable rockets & Mars mission plans</li>
+            <li><strong>Tesla</strong> – Leading electric car company</li>
+            <li><strong>Neuralink</strong> – Brain-computer interface tech</li>
+            <li><strong>X (Twitter)</strong> – Reimagining global communication</li>
+        </ul>
+    </div>
+</section>
+
+<section id="challenges">
+    <div class="card">
+        <h2>⚠️ Challenges & Failures</h2>
+        <p>Musk’s early SpaceX rockets exploded. Tesla nearly went bankrupt. Critics said electric cars and private space travel would fail. Instead of quitting, Musk reinvested his own money and kept pushing forward.</p>
+    </div>
+</section>
+
+<section id="impact">
+    <div class="card">
+        <h2>🏆 Success & Global Impact</h2>
+        <div class="timeline-item"><strong>1999:</strong> Sold Zip2</div>
+        <div class="timeline-item"><strong>2002:</strong> Sold PayPal to eBay</div>
+        <div class="timeline-item"><strong>2008:</strong> SpaceX launches first successful rocket</div>
+        <div class="timeline-item"><strong>2012:</strong> Tesla Model S becomes world-famous</div>
+        <div class="timeline-item"><strong>Today:</strong> Leading innovation in space, AI, cars, and tech</div>
+    </div>
+</section>
+
+<section id="lessons">
+    <div class="card">
+        <h2>💡 Top 5 Lessons from Elon Musk</h2>
+        <ul>
+            <li>Take big risks if the goal matters</li>
+            <li>Failure is part of success</li>
+            <li>Work harder than anyone else</li>
+            <li>Think about the future, not just today</li>
+            <li>Never stop innovating</li>
+        </ul>
+    </div>
+</section>
+
+<section id="video">
+    <div class="card" style="text-align:center;">
+        <h2>🎥 Elon Musk’s Story</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/rmCKIosW7SA" allowfullscreen></iframe>
+    </div>
+</section>
+
+<footer>
+    <p>Website Project — Greatest Entrepreneur Assignment</p>
+</footer>
+
+</body>
+</html>
